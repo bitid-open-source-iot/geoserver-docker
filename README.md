@@ -1,3 +1,7 @@
+docker build \
+  --build-arg ADDITIONAL_LIBS_PATH=./additional_libs \
+  -t shanebowyer/geoserver:v1.1.8 .
+
 # A geoserver docker image
 
 This Dockerfile can be used to create images for all geoserver versions since 2.5.
